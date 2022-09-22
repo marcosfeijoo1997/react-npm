@@ -1,24 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './componentes/navbar'
+import Alert from 'react-bootstrap/Alert';
+import React from 'react';
+import Carrito from './imagenes/carrito.png'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar src="https://viaplaceholder.com/150x150"/>
+      
+      <Navbar>    <li>Inicio</li>
+            <li>Nosotros</li>
+            <li href='#productos'>Productos</li >
+            <li>Servicios</li>
+            <li>Sucursales</li>
+            <img src= {Carrito}/></Navbar>
+          
+   
+   
     </div>
+    
   );
 }
 

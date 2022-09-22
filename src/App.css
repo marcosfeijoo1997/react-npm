@@ -24,6 +24,7 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.NavbarStyle {
+  background-color: rgba(184, 32, 32, 0.731);
+  font-size: x-large  ;
+  list-style: none;
+
+}
+
+.NavbarStyle img {
+  position: relative;
+  width: 40px;
+  top: -175px;
+  left: 900px;
+  
+  
 }
